@@ -99,45 +99,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		24132540224333E100D51960 /* GCDMulticastDelegate */ = {
-			isa = PBXGroup;
-			children = (
-				241325422243345100D51960 /* GCDMulticastDelegate.h */,
-				241325412243345100D51960 /* GCDMulticastDelegate.m */,
-			);
-			path = GCDMulticastDelegate;
-			sourceTree = "<group>";
-		};
-		242686572020462300F9E96C /* INTUAutoRemoveObserver */ = {
-			isa = PBXGroup;
-			children = (
-				242686592020465E00F9E96C /* INTUAutoRemoveObserver.h */,
-				242686582020465E00F9E96C /* INTUAutoRemoveObserver.m */,
-			);
-			path = INTUAutoRemoveObserver;
-			sourceTree = "<group>";
-		};
-		2446ED0C201978A100FD5012 /* Aspects */ = {
-			isa = PBXGroup;
-			children = (
-				2446ED0D201978A100FD5012 /* Aspects.h */,
-				2446ED0E201978A100FD5012 /* Aspects.m */,
-			);
-			path = Aspects;
-			sourceTree = "<group>";
-		};
-		2446ED272019B45A00FD5012 /* SVPullToRefresh */ = {
-			isa = PBXGroup;
-			children = (
-				2446ED282019B45A00FD5012 /* SVPullToRefresh.h */,
-				2446ED292019B45A00FD5012 /* UIScrollView+SVInfiniteScrolling.m */,
-				2446ED2A2019B45A00FD5012 /* UIScrollView+SVPullToRefresh.m */,
-				2446ED2B2019B45A00FD5012 /* UIScrollView+SVInfiniteScrolling.h */,
-				2446ED2C2019B45A00FD5012 /* UIScrollView+SVPullToRefresh.h */,
-			);
-			path = SVPullToRefresh;
-			sourceTree = "<group>";
-		};
 		2446ED322019B4E900FD5012 /* SDWebImage */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,11 +167,18 @@
 			isa = PBXGroup;
 			children = (
 				2458D68920102B5E00D2058C /* AFOGitHub.h */,
-				2446ED0C201978A100FD5012 /* Aspects */,
-				24132540224333E100D51960 /* GCDMulticastDelegate */,
-				242686572020462300F9E96C /* INTUAutoRemoveObserver */,
+				2446ED0D201978A100FD5012 /* Aspects.h */,
+				2446ED0E201978A100FD5012 /* Aspects.m */,
+				241325422243345100D51960 /* GCDMulticastDelegate.h */,
+				241325412243345100D51960 /* GCDMulticastDelegate.m */,
+				242686592020465E00F9E96C /* INTUAutoRemoveObserver.h */,
+				242686582020465E00F9E96C /* INTUAutoRemoveObserver.m */,
+				2446ED282019B45A00FD5012 /* SVPullToRefresh.h */,
+				2446ED292019B45A00FD5012 /* UIScrollView+SVInfiniteScrolling.m */,
+				2446ED2A2019B45A00FD5012 /* UIScrollView+SVPullToRefresh.m */,
+				2446ED2B2019B45A00FD5012 /* UIScrollView+SVInfiniteScrolling.h */,
+				2446ED2C2019B45A00FD5012 /* UIScrollView+SVPullToRefresh.h */,
 				2446ED322019B4E900FD5012 /* SDWebImage */,
-				2446ED272019B45A00FD5012 /* SVPullToRefresh */,
 			);
 			path = AFOGitHub;
 			sourceTree = "<group>";
