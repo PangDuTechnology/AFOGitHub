@@ -15,18 +15,18 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "AFOFoundation"
+  s.name         = "AFOGitHub"
   s.version      = "0.0.1"
-  s.summary      = "This library is for extending Foundation libraries."
+  s.summary      = "Integrated tripartite library."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = 'Inherit and system classes, compile extensions, and reuse.'
+  s.description  = 'Integrate common tripartite libraries.'
 
-  s.homepage     = "https://github.com/PangDuTechnology/AFOUIKIT.git"
+  s.homepage     = "https://github.com/PangDuTechnology/AFOGitHub.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -74,7 +74,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/PangDuTechnology/AFOFoundation.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/PangDuTechnology/AFOGitHub.git", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -85,10 +85,10 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "AFOFoundation/**/*.{h,m}"
+  s.source_files  = "AFOGitHub/**/*.{h,m}"
   #s.exclude_files = "AFOFoundation/*.{h,m}"
 
-  s.public_header_files = "AFOFoundation/**/*.h"
+  s.public_header_files = "AFOGitHub/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
