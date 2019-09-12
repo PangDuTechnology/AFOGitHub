@@ -85,10 +85,10 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "AFOGitHub/**/*.{h,m}","AFOGitHub/**/**/*.{h,m}"
+  s.source_files  = "AFOGitHub/**/*.{h,m}"
   #s.exclude_files = "AFOFoundation/*.{h,m}"
 
-  s.public_header_files = "AFOGitHub/**/*.h","AFOGitHub/**/**/*.{h,m}"
+  s.public_header_files = "AFOGitHub/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
