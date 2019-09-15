@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "AFOGitHub"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.summary      = "Integrated tripartite library."
 
   # This description is used to generate tags and improve search results.
@@ -63,10 +63,10 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, "7.0"
+  s.platform     = :ios, "8.0"
 
   #  When using multiple platforms
-  s.ios.deployment_target = '7.0'
+  s.ios.deployment_target = '8.0'
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #

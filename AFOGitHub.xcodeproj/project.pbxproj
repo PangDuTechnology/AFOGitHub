@@ -428,16 +428,12 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_BITCODE = NO;
-				HEADER_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/AFOGitHub/Masonry/include",
-					"$(PROJECT_DIR)/AFOGitHub/SDWebImage/include",
-				);
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/AFOGitHub/SDWebImage/include";
 				INFOPLIST_FILE = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/AFOGitHub/Masonry/lib",
 					"$(PROJECT_DIR)/AFOGitHub/SDWebImage/lib",
 				);
 				MACH_O_TYPE = staticlib;
@@ -468,16 +464,12 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_BITCODE = NO;
-				HEADER_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/AFOGitHub/Masonry/include",
-					"$(PROJECT_DIR)/AFOGitHub/SDWebImage/include",
-				);
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/AFOGitHub/SDWebImage/include";
 				INFOPLIST_FILE = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/AFOGitHub/Masonry/lib",
 					"$(PROJECT_DIR)/AFOGitHub/SDWebImage/lib",
 				);
 				MACH_O_TYPE = staticlib;
