@@ -217,17 +217,10 @@
 			isa = PBXGroup;
 			children = (
 				2458D68920102B5E00D2058C /* AFOGitHub.h */,
-				2446ED0D201978A100FD5012 /* Aspects.h */,
-				2446ED0E201978A100FD5012 /* Aspects.m */,
-				241325422243345100D51960 /* GCDMulticastDelegate.h */,
-				241325412243345100D51960 /* GCDMulticastDelegate.m */,
-				242686592020465E00F9E96C /* INTUAutoRemoveObserver.h */,
-				242686582020465E00F9E96C /* INTUAutoRemoveObserver.m */,
-				2446ED282019B45A00FD5012 /* SVPullToRefresh.h */,
-				2446ED292019B45A00FD5012 /* UIScrollView+SVInfiniteScrolling.m */,
-				2446ED2A2019B45A00FD5012 /* UIScrollView+SVPullToRefresh.m */,
-				2446ED2B2019B45A00FD5012 /* UIScrollView+SVInfiniteScrolling.h */,
-				2446ED2C2019B45A00FD5012 /* UIScrollView+SVPullToRefresh.h */,
+				72EBD5B2233A0808005F565F /* Aspects */,
+				72EBD5B4233A0862005F565F /* GCDMulticastDelegate */,
+				72EBD5B5233A0877005F565F /* INTUAutoRemoveObserver */,
+				72EBD5B3233A083E005F565F /* UIScrollView */,
 				2498E1E5232E0BFD004524FC /* Masonry */,
 				2446ED322019B4E900FD5012 /* SDWebImage */,
 			);
@@ -264,6 +257,45 @@
 				2498E1FE232E0BFD004524FC /* MASViewAttribute.m */,
 			);
 			path = Masonry;
+			sourceTree = "<group>";
+		};
+		72EBD5B2233A0808005F565F /* Aspects */ = {
+			isa = PBXGroup;
+			children = (
+				2446ED0D201978A100FD5012 /* Aspects.h */,
+				2446ED0E201978A100FD5012 /* Aspects.m */,
+			);
+			path = Aspects;
+			sourceTree = "<group>";
+		};
+		72EBD5B3233A083E005F565F /* UIScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				2446ED282019B45A00FD5012 /* SVPullToRefresh.h */,
+				2446ED292019B45A00FD5012 /* UIScrollView+SVInfiniteScrolling.m */,
+				2446ED2A2019B45A00FD5012 /* UIScrollView+SVPullToRefresh.m */,
+				2446ED2B2019B45A00FD5012 /* UIScrollView+SVInfiniteScrolling.h */,
+				2446ED2C2019B45A00FD5012 /* UIScrollView+SVPullToRefresh.h */,
+			);
+			path = UIScrollView;
+			sourceTree = "<group>";
+		};
+		72EBD5B4233A0862005F565F /* GCDMulticastDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				241325422243345100D51960 /* GCDMulticastDelegate.h */,
+				241325412243345100D51960 /* GCDMulticastDelegate.m */,
+			);
+			path = GCDMulticastDelegate;
+			sourceTree = "<group>";
+		};
+		72EBD5B5233A0877005F565F /* INTUAutoRemoveObserver */ = {
+			isa = PBXGroup;
+			children = (
+				242686592020465E00F9E96C /* INTUAutoRemoveObserver.h */,
+				242686582020465E00F9E96C /* INTUAutoRemoveObserver.m */,
+			);
+			path = INTUAutoRemoveObserver;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
