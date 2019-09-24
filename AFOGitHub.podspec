@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/PangDuTechnology/AFOGitHub.git", :tag => s.version.to_s }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source_files  = "AFOGitHub/*.h",AFOGitHub/**/*.{h,m}"
+  s.source_files  = "AFOGitHub/**/*.h",AFOGitHub/**/*.{h,m}"
   s.public_header_files = "AFOGitHub/*.h","AFOGitHub/**/*.h"
 
 
