@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "AFOGitHub"
-  s.version      = "0.0.9"
+  s.version      = "0.0.10"
   s.summary      = "Integrated tripartite library."
   s.description  = 'Integrate common tripartite libraries.'
   s.homepage     = "https://github.com/PangDuTechnology/AFOGitHub.git"
