@@ -22,41 +22,41 @@ Pod::Spec.new do |s|
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.source_files  = "AFOGitHub/AFOGitHub.h"
-
+  s.public_header_files = "AFOGitHub/*.h"
   s.subspec 'Aspects' do |as|
-    as.source_files = 'AFOGitHub/Aspects/*.{h,m}' 
-  end
+      as.source_files = 'AFOGitHub/Aspects/*.{h,m}' 
+      as.public_header_files = 'AFOGitHub/Aspects/*.h' 
+    end
   
   s.subspec 'GCDMulticastDelegate' do |gcd|
-    gcd.source_files = 'AFOGitHub/GCDMulticastDelegate/*.{h,m}' 
-    end
-
-  s.subspec 'GCDMulticastDelegate' do |gcd|
-    gcd.source_files = 'AFOGitHub/GCDMulticastDelegate/*.{h,m}' 
+      gcd.source_files = 'AFOGitHub/GCDMulticastDelegate/*.{h,m}' 
+      gcd.public_header_files = 'AFOGitHub/GCDMulticastDelegate/*.h' 
     end
 
   s.subspec 'INTUAutoRemoveObserver' do |intu|
-    intu.source_files = 'AFOGitHub/INTUAutoRemoveObserver/*.{h,m}' 
+      intu.source_files = 'AFOGitHub/INTUAutoRemoveObserver/*.{h,m}' 
+      intu.public_header_files = 'AFOGitHub/INTUAutoRemoveObserver/*.h'
     end
 
   s.subspec 'UIScrollView' do |ui|
-    ui.source_files = 'AFOGitHub/UIScrollView/*.{h,m}' 
+      ui.source_files = 'AFOGitHub/UIScrollView/*.{h,m}' 
+      ui.public_header_files = 'AFOGitHub/UIScrollView/*.h'
     end
 
   s.subspec 'Masonry' do |ma|
-    ma.source_files = 'AFOGitHub/Masonry/*.{h,m}' 
+      ma.source_files = 'AFOGitHub/Masonry/*.{h,m}' 
+      ma.public_header_files = 'AFOGitHub/Masonry/*.h'
     end
 
   s.subspec 'SDWebImage' do |sd|
     sd.subspec 'include' do |clude|
-      clude.source_files = 'AFOGitHub/SDWebImage/include/*.h' 
+        clude.source_files = 'AFOGitHub/SDWebImage/include/*.h' 
+        clude.public_header_files = 'AFOGitHub/SDWebImage/include/*.h' 
       end
     sd.subspec 'lib' do |lib|
-      lib.vendored_libraries = "AFOGitHub/SDWebImage/lib/libSDWebImage.a"
+        lib.vendored_libraries = "AFOGitHub/SDWebImage/lib/libSDWebImage.a"
       end
     end
-
-  s.public_header_files = "AFOGitHub/**/*.h","AFOGitHub/AFOGitHub/**/*.h"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
