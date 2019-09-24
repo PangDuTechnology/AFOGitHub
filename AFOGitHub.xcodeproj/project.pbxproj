@@ -43,7 +43,6 @@
 		2446ED642019B4E900FD5012 /* UIImage+MultiFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 2446ED4A2019B4E900FD5012 /* UIImage+MultiFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2446ED652019B4E900FD5012 /* UIImage+GIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 2446ED4B2019B4E900FD5012 /* UIImage+GIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2446ED662019B4E900FD5012 /* libSDWebImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2446ED4D2019B4E900FD5012 /* libSDWebImage.a */; };
-		2458D68B20102B5E00D2058C /* AFOGitHub.h in Headers */ = {isa = PBXBuildFile; fileRef = 2458D68920102B5E00D2058C /* AFOGitHub.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2498E1FF232E0BFE004524FC /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 2498E1E6232E0BFD004524FC /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2498E200232E0BFE004524FC /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2498E1E7232E0BFD004524FC /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		2498E201232E0BFE004524FC /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 2498E1E8232E0BFD004524FC /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -69,6 +68,7 @@
 		2498E215232E0BFE004524FC /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2498E1FC232E0BFD004524FC /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2498E216232E0BFE004524FC /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2498E1FD232E0BFD004524FC /* MASViewConstraint.m */; };
 		2498E217232E0BFE004524FC /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 2498E1FE232E0BFD004524FC /* MASViewAttribute.m */; };
+		72EBD5B7233A0BFB005F565F /* AFOGitHub.h in Headers */ = {isa = PBXBuildFile; fileRef = 72EBD5B6233A0BFB005F565F /* AFOGitHub.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -109,7 +109,6 @@
 		2446ED4B2019B4E900FD5012 /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
 		2446ED4D2019B4E900FD5012 /* libSDWebImage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSDWebImage.a; sourceTree = "<group>"; };
 		2458D68620102B5E00D2058C /* AFOGitHub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFOGitHub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2458D68920102B5E00D2058C /* AFOGitHub.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOGitHub.h; sourceTree = "<group>"; };
 		2498E1E6232E0BFD004524FC /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
 		2498E1E7232E0BFD004524FC /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
 		2498E1E8232E0BFD004524FC /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
@@ -135,6 +134,7 @@
 		2498E1FC232E0BFD004524FC /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		2498E1FD232E0BFD004524FC /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
 		2498E1FE232E0BFD004524FC /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		72EBD5B6233A0BFB005F565F /* AFOGitHub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFOGitHub.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,7 +216,7 @@
 		2458D68820102B5E00D2058C /* AFOGitHub */ = {
 			isa = PBXGroup;
 			children = (
-				2458D68920102B5E00D2058C /* AFOGitHub.h */,
+				72EBD5B6233A0BFB005F565F /* AFOGitHub.h */,
 				72EBD5B2233A0808005F565F /* Aspects */,
 				72EBD5B4233A0862005F565F /* GCDMulticastDelegate */,
 				72EBD5B5233A0877005F565F /* INTUAutoRemoveObserver */,
@@ -305,7 +305,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2458D68B20102B5E00D2058C /* AFOGitHub.h in Headers */,
 				2446ED522019B4E900FD5012 /* SDWebImageDownloaderOperation.h in Headers */,
 				2446ED622019B4E900FD5012 /* SDWebImageCompat.h in Headers */,
 				2446ED642019B4E900FD5012 /* UIImage+MultiFormat.h in Headers */,
@@ -350,6 +349,7 @@
 				2446ED302019B45A00FD5012 /* UIScrollView+SVInfiniteScrolling.h in Headers */,
 				2426865B2020465E00F9E96C /* INTUAutoRemoveObserver.h in Headers */,
 				241325442243345100D51960 /* GCDMulticastDelegate.h in Headers */,
+				72EBD5B7233A0BFB005F565F /* AFOGitHub.h in Headers */,
 				2446ED312019B45A00FD5012 /* UIScrollView+SVPullToRefresh.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
