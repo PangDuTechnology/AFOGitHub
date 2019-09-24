@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
    s.requires_arc = true
-   s.xcconfig = { 'HEADER_SEARCH_PATHS'=> '"$(SDKROOT)/AFOGitHub/**/*.h"',
-                  'LIBRARY_SEARCH_PATHS'=> '"$(SDKROOT)/AFOGitHub/SDWebimage/lib"'
+   s.xcconfig = { 'HEADER_SEARCH_PATHS'=> '"$(SDKROOT)/AFOGitHub/AFOGitHub/**/*.h"',
+                  'LIBRARY_SEARCH_PATHS'=> '"$(SDKROOT)/AFOGitHub/AFOGitHub/SDWebimage/lib"'
   }
 end
