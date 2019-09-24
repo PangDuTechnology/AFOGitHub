@@ -21,9 +21,43 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/PangDuTechnology/AFOGitHub.git", :tag => s.version.to_s }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source_files  = "AFOGitHub/**/*.{h,m}"
+  s.source_files  = "AFOGitHub/AFOGitHub.h"
+
+  s.subspec 'Aspects' do |as|
+    as.source_files = 'AFOGitHub/Aspects/*.{h,m}' 
+  end
+  
+  s.subspec 'GCDMulticastDelegate' do |gcd|
+    gcd.source_files = 'AFOGitHub/GCDMulticastDelegate/*.{h,m}' 
+    end
+
+  s.subspec 'GCDMulticastDelegate' do |gcd|
+    gcd.source_files = 'AFOGitHub/GCDMulticastDelegate/*.{h,m}' 
+    end
+
+  s.subspec 'INTUAutoRemoveObserver' do |intu|
+    intu.source_files = 'AFOGitHub/INTUAutoRemoveObserver/*.{h,m}' 
+    end
+
+  s.subspec 'UIScrollView' do |ui|
+    ui.source_files = 'AFOGitHub/UIScrollView/*.{h,m}' 
+    end
+
+  s.subspec 'Masonry' do |ma|
+    ma.source_files = 'AFOGitHub/Masonry/*.{h,m}' 
+    end
+
+  s.subspec 'SDWebImage' do |sd|
+    sd.subspec 'include' do |clude|
+      clude.source_files = 'AFOGitHub/SDWebImage/include/*.h' 
+      end
+    sd.subspec 'lib' do |lib|
+      lib.vendored_libraries = "AFOGitHub/SDWebImage/lib/libSDWebImage.a"
+      end
+    end
+
   s.public_header_files = "AFOGitHub/**/*.h","AFOGitHub/AFOGitHub/**/*.h"
-  s.vendored_libraries = "AFOGitHub/SDWebImage/lib/libSDWebImage.a"
+
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
