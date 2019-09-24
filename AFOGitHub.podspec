@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/PangDuTechnology/AFOGitHub.git", :tag => s.version.to_s }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source_files  = "AFOGitHub/AFOGitHub/*.h",AFOGitHub/AFOGitHub/**/*.{h,m}"
+  s.source_files  = "AFOGitHub/**/*.{h,m}"
   s.public_header_files = "AFOGitHub/**/*.h","AFOGitHub/AFOGitHub/**/*.h"
 
 
@@ -31,7 +31,9 @@ Pod::Spec.new do |s|
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
    s.requires_arc = true
-#   s.xcconfig = { 'HEADER_SEARCH_PATHS'=> '"$(SDKROOT)/AFOGitHub/AFOGitHub/**/*.h"',
-#                  'LIBRARY_SEARCH_PATHS'=> '"$(SDKROOT)/AFOGitHub/AFOGitHub/SDWebimage/lib"'}
-#
+   s.xcconfig = { 
+                  'HEADER_SEARCH_PATHS'=> '"$(SDKROOT)/AFOGitHub/AFOGitHub/**/*.h"',
+
+                  'LIBRARY_SEARCH_PATHS'=> '"$(SDKROOT)/AFOGitHub/AFOGitHub/SDWebimage/lib"'
+  }
 end
