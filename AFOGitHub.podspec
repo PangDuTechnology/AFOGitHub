@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.source_files  = "AFOGitHub/AFOGitHub/*.h",AFOGitHub/AFOGitHub/**/*.{h,m}"
-  s.public_header_files = "AFOGitHub/AFOGitHub/*.h","AFOGitHub/AFOGitHub/**/*.h"
+  s.public_header_files = "AFOGitHub/**/*.h","AFOGitHub/AFOGitHub/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
