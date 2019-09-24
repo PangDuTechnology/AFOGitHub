@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "AFOGitHub"
-  s.version      = "0.0.8"
+  s.version      = "0.0.9"
   s.summary      = "Integrated tripartite library."
   s.description  = 'Integrate common tripartite libraries.'
   s.homepage     = "https://github.com/PangDuTechnology/AFOGitHub.git"
@@ -23,8 +23,7 @@ Pod::Spec.new do |s|
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.source_files  = "AFOGitHub/**/*.{h,m}"
   s.public_header_files = "AFOGitHub/**/*.h","AFOGitHub/AFOGitHub/**/*.h"
-
-
+  s.vendored_libraries = "AFOGitHub/SDWebImage/lib/libSDWebImage.a"
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
