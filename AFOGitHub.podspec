@@ -25,8 +25,8 @@ Pod::Spec.new do |s|
   s.public_header_files = "AFOGitHub/*.h"
 
   s.subspec 'AFNetworking' do |afnetworking|
-    AFNetworking.source_files = 'AFOGitHub/AFNetworking/*.h' 
-    AFNetworking.public_header_files = 'AFOGitHub/AFNetworking/*.h'
+    afnetworking.source_files = 'AFOGitHub/AFNetworking/*.h' 
+    afnetworking.public_header_files = 'AFOGitHub/AFNetworking/*.h'
         afnetworking.subspec 'AFNetworking' do |AFNetworking|
           AFNetworking.vendored_libraries = "AFOGitHub/AFNetworking/AFNetworking/*.{h,m}"
           AFNetworking.public_header_files = 'AFOGitHub/AFNetworking/AFNetworking/*.h' 
