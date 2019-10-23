@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "AFOGitHub"
-  s.version      = "0.0.12"
+  s.version      = "0.0.13"
   s.summary      = "Integrated tripartite library."
   s.description  = 'Integrate common tripartite libraries.'
   s.homepage     = "https://github.com/PangDuTechnology/AFOGitHub.git"
@@ -35,6 +35,11 @@ Pod::Spec.new do |s|
           uikit.source_files = 'AFOGitHub/AFNetworking/UIKit+AFNetworking/*.{h,m}'
           uikit.public_header_files = 'AFOGitHub/AFNetworking/UIKit+AFNetworking/*.h' 
         end 
+    end
+
+  s.subspec 'FBKVOController' do |fb|
+      fb.source_files = 'AFOGitHub/FBKVOController/*.{h,m}' 
+      fb.public_header_files = 'AFOGitHub/FBKVOController/*.h' 
     end
 
   s.subspec 'Aspects' do |as|
