@@ -25,12 +25,14 @@ Pod::Spec.new do |s|
   s.public_header_files = "AFOGitHub/*.h"
 
   s.subspec 'AFNetworking' do |afnetworking|
+    afnetworking.vendored_libraries = 'AFOGitHub/AFNetworking/AFNetworkingHeader.h'
+    afnetworking.public_header_files = 'AFOGitHub/AFNetworking/AFNetworkingHeader.h' 
       afnetworking.subspec 'AFNetworking' do |af|
-          af.vendored_libraries = "AFOGitHub/AFNetworking/AFNetworking/*.{h,m}"
+          af.vendored_libraries = 'AFOGitHub/AFNetworking/AFNetworking/*.{h,m}'
           af.public_header_files = 'AFOGitHub/AFNetworking/AFNetworking/*.h' 
         end 
       afnetworking.subspec 'UIKit+AFNetworking' do |uikit|
-          uikit.vendored_libraries = "AFOGitHub/AFNetworking/UIKit+AFNetworking/*.{h,m}"
+          uikit.vendored_libraries = 'AFOGitHub/AFNetworking/UIKit+AFNetworking/*.{h,m}'
           uikit.public_header_files = 'AFOGitHub/AFNetworking/UIKit+AFNetworking/*.h' 
         end 
     end

@@ -106,6 +106,7 @@
 		728F5D74235FFD6C00EE3B3C /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 728F5D52235FFD6C00EE3B3C /* AFAutoPurgingImageCache.m */; };
 		728F5D75235FFD6C00EE3B3C /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 728F5D53235FFD6C00EE3B3C /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		728F5D76235FFD6C00EE3B3C /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 728F5D54235FFD6C00EE3B3C /* AFImageDownloader.m */; };
+		728F5D782360055C00EE3B3C /* AFNetworkingHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 728F5D772360055C00EE3B3C /* AFNetworkingHeader.h */; };
 		72EBD5B7233A0BFB005F565F /* AFOGitHub.h in Headers */ = {isa = PBXBuildFile; fileRef = 72EBD5B6233A0BFB005F565F /* AFOGitHub.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -210,6 +211,7 @@
 		728F5D52235FFD6C00EE3B3C /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAutoPurgingImageCache.m; sourceTree = "<group>"; };
 		728F5D53235FFD6C00EE3B3C /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
 		728F5D54235FFD6C00EE3B3C /* AFImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageDownloader.m; sourceTree = "<group>"; };
+		728F5D772360055C00EE3B3C /* AFNetworkingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNetworkingHeader.h; sourceTree = "<group>"; };
 		72EBD5B6233A0BFB005F565F /* AFOGitHub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFOGitHub.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -351,6 +353,7 @@
 		728F5D30235FFD4C00EE3B3C /* AFNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				728F5D772360055C00EE3B3C /* AFNetworkingHeader.h */,
 				728F5D31235FFD6C00EE3B3C /* AFNetworking */,
 				728F5D40235FFD6C00EE3B3C /* UIKit+AFNetworking */,
 			);
@@ -497,6 +500,7 @@
 				728F5D64235FFD6C00EE3B3C /* UIButton+AFNetworking.h in Headers */,
 				728F5D66235FFD6C00EE3B3C /* UIImageView+AFNetworking.h in Headers */,
 				728F5D75235FFD6C00EE3B3C /* AFNetworkActivityIndicatorManager.h in Headers */,
+				728F5D782360055C00EE3B3C /* AFNetworkingHeader.h in Headers */,
 				728F5D6A235FFD6C00EE3B3C /* UIWebView+AFNetworking.h in Headers */,
 				728F5D5B235FFD6C00EE3B3C /* AFURLResponseSerialization.h in Headers */,
 				728F5D70235FFD6C00EE3B3C /* UIRefreshControl+AFNetworking.h in Headers */,

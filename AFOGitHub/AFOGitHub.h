@@ -22,5 +22,4 @@ FOUNDATION_EXPORT const unsigned char AFOGitHubVersionString[];
 #import <AFOGitHub/INTUAutoRemoveObserver.h>
 #import <AFOGitHub/GCDMulticastDelegate.h>
 #import <AFOGitHub/FBKVOController.h>
-#import <AFOGitHub/AFNetworking.h>
-#import <AFOGitHub/UIKit+AFNetworking.h>
+#import <AFOGitHub/AFNetworkingHeader.h>
