@@ -351,8 +351,6 @@
 		728F5D30235FFD4C00EE3B3C /* AFNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				728F5D3B235FFD6C00EE3B3C /* AFNetworking.h */,
-				728F5D4D235FFD6C00EE3B3C /* UIKit+AFNetworking.h */,
 				728F5D31235FFD6C00EE3B3C /* AFNetworking */,
 				728F5D40235FFD6C00EE3B3C /* UIKit+AFNetworking */,
 			);
@@ -362,6 +360,7 @@
 		728F5D31235FFD6C00EE3B3C /* AFNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				728F5D3B235FFD6C00EE3B3C /* AFNetworking.h */,
 				728F5D3E235FFD6C00EE3B3C /* AFCompatibilityMacros.h */,
 				728F5D32235FFD6C00EE3B3C /* AFSecurityPolicy.h */,
 				728F5D3D235FFD6C00EE3B3C /* AFSecurityPolicy.m */,
@@ -382,6 +381,7 @@
 		728F5D40235FFD6C00EE3B3C /* UIKit+AFNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				728F5D4D235FFD6C00EE3B3C /* UIKit+AFNetworking.h */,
 				728F5D41235FFD6C00EE3B3C /* UIProgressView+AFNetworking.m */,
 				728F5D4B235FFD6C00EE3B3C /* UIProgressView+AFNetworking.h */,
 				728F5D42235FFD6C00EE3B3C /* UIButton+AFNetworking.h */,
