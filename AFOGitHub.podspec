@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "AFOGitHub"
-  s.version      = "0.0.10"
+  s.version      = "0.0.11"
   s.summary      = "Integrated tripartite library."
   s.description  = 'Integrate common tripartite libraries.'
   s.homepage     = "https://github.com/PangDuTechnology/AFOGitHub.git"
@@ -23,6 +23,20 @@ Pod::Spec.new do |s|
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.source_files  = "AFOGitHub/AFOGitHub.h"
   s.public_header_files = "AFOGitHub/*.h"
+
+  s.subspec 'AFNetworking' do |afnetworking|
+    AFNetworking.source_files = 'AFOGitHub/AFNetworking/*.h' 
+    AFNetworking.public_header_files = 'AFOGitHub/AFNetworking/*.h'
+        afnetworking.subspec 'AFNetworking' do |AFNetworking|
+          AFNetworking.vendored_libraries = "AFOGitHub/AFNetworking/AFNetworking/*.{h,m}"
+          AFNetworking.public_header_files = 'AFOGitHub/AFNetworking/AFNetworking/*.h' 
+        end 
+        afnetworking.subspec 'UIKit+AFNetworking' do |uikit|
+          uikit.vendored_libraries = "AFOGitHub/AFNetworking/UIKit+AFNetworking/*.{h,m}"
+          uikit.public_header_files = 'AFOGitHub/AFNetworking/UIKit+AFNetworking/*.h' 
+        end 
+    end
+
   s.subspec 'Aspects' do |as|
       as.source_files = 'AFOGitHub/Aspects/*.{h,m}' 
       as.public_header_files = 'AFOGitHub/Aspects/*.h' 
