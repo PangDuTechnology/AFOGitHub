@@ -68,6 +68,10 @@
 		2498E215232E0BFE004524FC /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2498E1FC232E0BFD004524FC /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2498E216232E0BFE004524FC /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2498E1FD232E0BFD004524FC /* MASViewConstraint.m */; };
 		2498E217232E0BFE004524FC /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 2498E1FE232E0BFD004524FC /* MASViewAttribute.m */; };
+		727FEF03235F495100324909 /* FBKVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = 727FEEFD235F495100324909 /* FBKVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		727FEF04235F495100324909 /* NSObject+FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 727FEEFE235F495100324909 /* NSObject+FBKVOController.m */; };
+		727FEF05235F495100324909 /* FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 727FEEFF235F495100324909 /* FBKVOController.m */; };
+		727FEF07235F495100324909 /* NSObject+FBKVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = 727FEF01235F495100324909 /* NSObject+FBKVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72EBD5B7233A0BFB005F565F /* AFOGitHub.h in Headers */ = {isa = PBXBuildFile; fileRef = 72EBD5B6233A0BFB005F565F /* AFOGitHub.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -134,6 +138,10 @@
 		2498E1FC232E0BFD004524FC /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		2498E1FD232E0BFD004524FC /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
 		2498E1FE232E0BFD004524FC /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		727FEEFD235F495100324909 /* FBKVOController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKVOController.h; sourceTree = "<group>"; };
+		727FEEFE235F495100324909 /* NSObject+FBKVOController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FBKVOController.m"; sourceTree = "<group>"; };
+		727FEEFF235F495100324909 /* FBKVOController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKVOController.m; sourceTree = "<group>"; };
+		727FEF01235F495100324909 /* NSObject+FBKVOController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+FBKVOController.h"; sourceTree = "<group>"; };
 		72EBD5B6233A0BFB005F565F /* AFOGitHub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFOGitHub.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -217,6 +225,7 @@
 			isa = PBXGroup;
 			children = (
 				72EBD5B6233A0BFB005F565F /* AFOGitHub.h */,
+				727FEEFB235F495100324909 /* FBKVOController */,
 				72EBD5B2233A0808005F565F /* Aspects */,
 				72EBD5B4233A0862005F565F /* GCDMulticastDelegate */,
 				72EBD5B5233A0877005F565F /* INTUAutoRemoveObserver */,
@@ -257,6 +266,17 @@
 				2498E1FE232E0BFD004524FC /* MASViewAttribute.m */,
 			);
 			path = Masonry;
+			sourceTree = "<group>";
+		};
+		727FEEFB235F495100324909 /* FBKVOController */ = {
+			isa = PBXGroup;
+			children = (
+				727FEEFD235F495100324909 /* FBKVOController.h */,
+				727FEEFF235F495100324909 /* FBKVOController.m */,
+				727FEF01235F495100324909 /* NSObject+FBKVOController.h */,
+				727FEEFE235F495100324909 /* NSObject+FBKVOController.m */,
+			);
+			path = FBKVOController;
 			sourceTree = "<group>";
 		};
 		72EBD5B2233A0808005F565F /* Aspects */ = {
@@ -349,6 +369,8 @@
 				2446ED302019B45A00FD5012 /* UIScrollView+SVInfiniteScrolling.h in Headers */,
 				2426865B2020465E00F9E96C /* INTUAutoRemoveObserver.h in Headers */,
 				241325442243345100D51960 /* GCDMulticastDelegate.h in Headers */,
+				727FEF03235F495100324909 /* FBKVOController.h in Headers */,
+				727FEF07235F495100324909 /* NSObject+FBKVOController.h in Headers */,
 				72EBD5B7233A0BFB005F565F /* AFOGitHub.h in Headers */,
 				2446ED312019B45A00FD5012 /* UIScrollView+SVPullToRefresh.h in Headers */,
 			);
@@ -426,6 +448,7 @@
 				2446ED10201978A200FD5012 /* Aspects.m in Sources */,
 				2498E20F232E0BFE004524FC /* MASLayoutConstraint.m in Sources */,
 				2426865A2020465E00F9E96C /* INTUAutoRemoveObserver.m in Sources */,
+				727FEF04235F495100324909 /* NSObject+FBKVOController.m in Sources */,
 				2446ED2F2019B45A00FD5012 /* UIScrollView+SVPullToRefresh.m in Sources */,
 				2498E217232E0BFE004524FC /* MASViewAttribute.m in Sources */,
 				2498E210232E0BFE004524FC /* NSArray+MASAdditions.m in Sources */,
@@ -433,6 +456,7 @@
 				2498E20E232E0BFE004524FC /* MASConstraintMaker.m in Sources */,
 				2498E211232E0BFE004524FC /* View+MASAdditions.m in Sources */,
 				2498E209232E0BFE004524FC /* ViewController+MASAdditions.m in Sources */,
+				727FEF05235F495100324909 /* FBKVOController.m in Sources */,
 				241325432243345100D51960 /* GCDMulticastDelegate.m in Sources */,
 				2498E216232E0BFE004524FC /* MASViewConstraint.m in Sources */,
 				2498E200232E0BFE004524FC /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
