@@ -21,18 +21,18 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/PangDuTechnology/AFOGitHub.git", :tag => s.version.to_s }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source_files  = "AFOGitHub/AFOGitHub.h"
-  s.public_header_files = "AFOGitHub/*.h"
+  s.source_files  = 'AFOGitHub/AFOGitHub.h'
+  s.public_header_files = 'AFOGitHub/*.h'
 
   s.subspec 'AFNetworking' do |afnetworking|
-    afnetworking.vendored_libraries = 'AFOGitHub/AFNetworking/AFNetworkingHeader.h'
+    afnetworking.source_files = 'AFOGitHub/AFNetworking/AFNetworkingHeader.h'
     afnetworking.public_header_files = 'AFOGitHub/AFNetworking/AFNetworkingHeader.h' 
       afnetworking.subspec 'AFNetworking' do |af|
-          af.vendored_libraries = 'AFOGitHub/AFNetworking/AFNetworking/*.{h,m}'
+          af.source_files = 'AFOGitHub/AFNetworking/AFNetworking/*.{h,m}'
           af.public_header_files = 'AFOGitHub/AFNetworking/AFNetworking/*.h' 
         end 
       afnetworking.subspec 'UIKit+AFNetworking' do |uikit|
-          uikit.vendored_libraries = 'AFOGitHub/AFNetworking/UIKit+AFNetworking/*.{h,m}'
+          uikit.source_files = 'AFOGitHub/AFNetworking/UIKit+AFNetworking/*.{h,m}'
           uikit.public_header_files = 'AFOGitHub/AFNetworking/UIKit+AFNetworking/*.h' 
         end 
     end
