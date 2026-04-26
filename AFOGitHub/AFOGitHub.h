@@ -18,7 +18,7 @@ FOUNDATION_EXPORT const unsigned char AFOGitHubVersionString[];
 #import <AFOGitHub/Aspects.h>
 #import <AFOGitHub/Masonry.h>
 #import <AFOGitHub/SVPullToRefresh.h>
-#import <AFOGitHub/UIImageView+WebCache.h>
+// SDWebImage 由 AFOGitHub/SDWebImage 子 spec 拉取，请在业务侧 #import <SDWebImage/SDWebImage.h>（或按需引用具体头文件）
 #import <AFOGitHub/INTUAutoRemoveObserver.h>
 #import <AFOGitHub/GCDMulticastDelegate.h>
 #import <AFOGitHub/FBKVOController.h>
