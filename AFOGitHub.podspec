@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "AFOGitHub"
-  s.version      = "0.0.14"
+  s.version      = "0.0.15"
   s.summary      = "Integrated tripartite library."
   s.description  = 'Integrate common tripartite libraries.'
   s.homepage     = "https://github.com/PangDuTechnology/AFOGitHub.git"
@@ -32,6 +32,7 @@ Pod::Spec.new do |s|
           af.public_header_files = 'AFOGitHub/AFNetworking/AFNetworking/*.h' 
         end 
       afnetworking.subspec 'UIKit+AFNetworking' do |uikit|
+          uikit.dependency 'AFOGitHub/AFNetworking/AFNetworking'
           uikit.source_files = 'AFOGitHub/AFNetworking/UIKit+AFNetworking/*.{h,m}'
           uikit.public_header_files = 'AFOGitHub/AFNetworking/UIKit+AFNetworking/*.h' 
         end 
@@ -68,14 +69,8 @@ Pod::Spec.new do |s|
     end
 
   s.subspec 'SDWebImage' do |sd|
-    sd.subspec 'include' do |clude|
-        clude.source_files = 'AFOGitHub/SDWebImage/include/*.h' 
-        clude.public_header_files = 'AFOGitHub/SDWebImage/include/*.h' 
-      end
-    sd.subspec 'lib' do |lib|
-        lib.vendored_libraries = "AFOGitHub/SDWebImage/lib/libSDWebImage.a"
-      end
-    end
+    sd.dependency 'SDWebImage', '~> 5.19'
+  end
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
